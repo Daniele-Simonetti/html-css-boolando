@@ -65,4 +65,39 @@ html {
   left: 40px;
 }
 
+.adding-to-wishlist-banner {
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid white;
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  padding: 10px;
+}
 
+
+/* window footer */
+.footer-sec-left-window {
+  margin-top: 10px;
+}
+
+.clothes-brand {
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.clothes-description{
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+.clothes-price {
+  font-size: 0.9em;
+  color:red;
+}
+
+.price-variation {
+  color: black;
+  text-decoration-line: line-through;
+
+}
