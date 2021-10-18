@@ -30,32 +30,30 @@ html {
 .left-window-img,
 .middle-window-img,
 .right-window-img {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - -62%);
 }
 
 .left-window,
 .middle-window,
 .right-window {
   float: left;
-  display: inline-block;
+  width: calc(100% / 3);
 }
 
 
 
-/* .footer-sec-left-window,
+
+.footer-sec-left-window,
 .footer-sec-middle-window,
 .footer-sec-right-window,
 .footer-sec-second-left-window {
+  font-size: 0.2em;
   width: 100%;
   height: 100%;
-} */
+}
 
 .header-sec-left-window,
 .header-sec-middle-window,
 .header-sec-right-window {
-  
+ 
 }
-/* 
-main:last-child section {
-  margin-top: 110px;
-} */
