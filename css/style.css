@@ -27,28 +27,33 @@ html {
 /* main */
 /* left window */
 
-.left-window-img{
-  width: 100%;
+.left-window-img,
+.middle-window-img,
+.right-window-img {
+  width: calc(100% / 3);
 }
-
-
 
 .left-window,
 .middle-window,
-.right-window,
-.second-left-window {
+.right-window {
   float: left;
-  width: 295px;
-  height: 400px;
-  
+  display: inline-block;
 }
 
-.footer-sec-left-window,
+
+
+/* .footer-sec-left-window,
 .footer-sec-middle-window,
 .footer-sec-right-window,
 .footer-sec-second-left-window {
   width: 100%;
   height: 100%;
+} */
+
+.header-sec-left-window,
+.header-sec-middle-window,
+.header-sec-right-window {
+  
 }
 /* 
 main:last-child section {
