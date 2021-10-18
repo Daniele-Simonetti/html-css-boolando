@@ -89,9 +89,7 @@ html {
 
 
 /* window footer */
-.footer-sec-left-window {
-  margin-top: 10px;
-}
+
 
 .clothes-brand {
   font-weight: normal;
@@ -119,4 +117,13 @@ html {
   margin-top: 40px;
 }
 
-
+/* banner second section */
+.second-eco-friendly-banner {
+  font-size: 15px;
+  color: white;
+  background-color: green;
+  border: 1px solid green;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+}
