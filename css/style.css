@@ -25,7 +25,7 @@ html {
 }
 
 /* main */
-/* first section */
+/* first section and second section general rules */
 
 .left-window-img,
 .middle-window-img,
@@ -44,6 +44,7 @@ html {
 .second-right-window {
   float: left;
   width: calc(100% / 3);
+  display: block;
 }
 
 .header-sec-left-window,
@@ -126,4 +127,47 @@ html {
   position: absolute;
   bottom: 15px;
   left: 0;
+}
+
+/* hover section */
+/* hide img */
+.hoover-left-window-img {
+  display: none;
+  width: calc(100% / 3 - -62%);
+}
+
+.hoover-middle-window-img {
+  display: none;
+  width: calc(100% / 3 - -62%);
+}
+
+.hoover-right-window-img {
+  display: none;
+  width: calc(100% / 3 - -62%);
+}
+
+/* hide original img */
+.left-window:hover .left-window-img {
+  display: none;
+}
+
+.middle-window:hover .middle-window-img {
+  display: none;
+}
+
+.right-window:hover .right-window-img {
+  display: none;
+}
+
+/* show new img */
+.left-window:hover .hoover-left-window-img{
+  display: block;
+}
+
+.middle-window:hover .hoover-middle-window-img {
+  display: block;
+}
+
+.right-windiw:hover .hoover-right-window-img {
+  display: block;
 }
