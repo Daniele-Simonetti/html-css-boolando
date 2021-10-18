@@ -41,7 +41,8 @@ html {
   
 }
 .header-sec-left-window,
-.header-sec-middle-window {
+.header-sec-middle-window,
+.header-sec-right-window {
   position: relative;
 }
 
