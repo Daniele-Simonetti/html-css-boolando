@@ -40,10 +40,12 @@ html {
   width: calc(100% / 3);
   
 }
-.header-sec-left-window {
+.header-sec-left-window,
+.header-sec-middle-window {
   position: relative;
-  
 }
+
+
  /* banners */
 .sales-banner {
   font-size: 15px;
@@ -86,7 +88,7 @@ html {
   font-size: 0.9em;
 }
 
-.clothes-description{
+.clothes-description {
   text-transform: uppercase;
   font-size: 1.1em;
 }
